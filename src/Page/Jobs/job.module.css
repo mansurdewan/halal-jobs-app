@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.singleCardParent{
+    /* width: 320px;
+    height: 390px; */
+    /* border: 2px solid #4984ae; */
+    line-height: 18px;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    border-radius: 5px ;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+}
+
+.cardLogo{
+    width: 100%;
+    height: 160px;
+    border-radius: 3px;
+}
+
+.cardTitle{
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+.cardCompantName{
+    /* font-size: 25px;  */
+     padding-bottom: 3px; 
+}
+
+.cardPosition{
+    /* font-size: 20px; */
+    font-style: italic;
+    color: rgb(65, 57, 57);
+    padding-bottom: 3px; 
+}
+
+.cardDescription{
+    /* line-height: 15px; */
+    /* padding-bottom: 5px; */
+    color: rgb(100, 97, 97);
+    font-size: 16px;
+}
+
+.cardButtonApply{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    color: white;
+    background-color:#37a2ee;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 600;
+   margin-left: 10px;
+   margin-right: 30px;
+}
+
+.cardButtonDetails{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    color: white;
+   
+    background-color: #4984ae;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 600;
+   margin-left: 10px;
+}
+
+.cardButtonDetails:hover{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    color: #4984ae;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid #4984ae ;
+    font-weight: 600;
+   margin-left: 10px;
+}
+
+.cardButtonApply:hover{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    color: #4984ae;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid #4984ae ;
+    font-weight: 600;
+   margin-left: 10px;
+}
+
+.cardIconParent{
+    font-size: 23px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 7px;
+    margin-bottom: 1px;
+}
+
+.cardIconEdite:hover{
+    color: blueviolet;
+}
+
+.cardIconDelete:hover{
+    color: red;
+}
+
+.cardIconFavorite:hover{
+    color: rgb(205, 17, 155);
+}
+
+.cardIconFavorite{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.cardTextParent{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.cardsParent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    background-color: #f7f7f7;
+    /* margin: auto; */
+    gap: 40px;
+    /* margin: 0 20px; */
+    padding: 30px 55px;
+    justify-content: center;
+}

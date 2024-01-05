@@ -1,0 +1,78 @@
+.heroText{
+    line-height: 55px;
+}
+
+.textParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textLive{
+    font-size: 85px;
+    margin-left: 160px;
+}
+
+.textAllah{
+    font-size: 60px;
+    margin-left: 180px;
+    font-family: system-ui;
+    font-weight: 900;
+    color: #123524;
+ 
+}
+
+.textCertified{
+    font-size: 45px;
+    margin-left: 47px;
+}
+
+.textThrough{
+    font-size: 45px;
+    margin-left: 90px;
+}
+
+.textSpan{
+    color: #4984ae;
+}
+
+.heroImage{
+    width: 450px;
+    height: 350px;
+    margin-right: 47px;
+}
+
+.heroButton {
+    height: 50px;
+    width: 160px;
+    font-size: 22px;
+    color: white;
+    background-color: #4984ae;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 600;
+   margin-left: 10px;
+   text-decoration: none;
+   display: inline-block;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+.heroButton:hover {
+    background-color: #78bae9;
+    color: #ffffff;
+}
+/* 
+.heroButton a:hover{
+    color:  #4984ae;
+    background-color:  white;
+    border: 2px solid  #4984ae;
+} */
+/* .heroButton:hover{
+    background-color: white;
+} */
+
+/* .heroButton a{
+    color: white;
+    text-decoration: none;
+} */
