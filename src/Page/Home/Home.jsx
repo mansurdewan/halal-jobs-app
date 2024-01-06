@@ -7,6 +7,7 @@ import cardStyle from "../Jobs/job.module.css"
 function Home() {
   const datas = useLoaderData()
   const three = datas.slice(-5)
+  console.log(three)
   return (
     <>
     <div className={homeStyle.textParent}>
@@ -22,9 +23,9 @@ function Home() {
     </div>
 
     <div  className={cardStyle.cardsParent}>
-    {three.map(data =>   <Job key={data.id} data={data}/>)}
+    { three && three.map(data => <Job key={data.id} data={data}/>)}
     </div>
-   
+  
     </>
   )
 }

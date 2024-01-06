@@ -76,3 +76,83 @@
     color: white;
     text-decoration: none;
 } */
+
+/* about section's style */
+
+.aboutContainer{
+    margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+			max-width: 800px;
+}
+
+.aboutTitle{
+    font-size: 36px;
+			margin-bottom: 20px;
+}
+
+.aboutParagrap{
+    font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+}
+
+.aboutParent{
+    font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+            padding: 50px 0 ;
+}
+
+
+/* style for contact section */
+
+/* .ContactContainer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 800px;
+  }
+  
+  .contactHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+   */

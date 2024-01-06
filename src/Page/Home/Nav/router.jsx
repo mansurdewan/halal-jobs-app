@@ -15,14 +15,14 @@ import SignOut from "../../SignOut/SignOut";
       children:[
         { path: "/", element: <Home/>,
        loader: () => {
-        return fetch("../../../../data.json")
+        return fetch("/data.json")
        } },
         { path: "/about", element: <About/> },
       { path: "/contact", element: <Contact/> },
       { path: "/favorite", element: <Favorite/> },
       { path: "/jobs", element: <Jobs/>,
       loader:()=>{
-        return fetch("../../../../data.json")
+        return fetch("/data.json")
       } },
       { path: "/singup", element: <Signup/> },
       { path: "/singout", element: <SignOut/> }

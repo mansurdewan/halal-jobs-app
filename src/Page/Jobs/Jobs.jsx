@@ -8,7 +8,7 @@ function Jobs() {
   console.log(datas)
   return (
     <div className={jobsStyle.cardsParent}>
-      {datas.map(data => <Job key={data.id} data={data}/>)}
+      {datas && datas.map(data => <Job key={data.id} data={data}/>)}
     </div>
   )
 }
